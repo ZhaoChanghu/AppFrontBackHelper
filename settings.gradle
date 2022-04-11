@@ -1,0 +1,3 @@
+rootProject.name = "AppFrontBackHelper"
+include ':app'
+include ':appfrontbackhelper-library'
