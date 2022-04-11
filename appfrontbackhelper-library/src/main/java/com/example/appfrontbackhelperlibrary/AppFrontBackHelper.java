@@ -179,7 +179,7 @@ public class AppFrontBackHelper {
             finishTime = System.currentTimeMillis();
         } else {
             isShow = false;
-            if (mActivityList.size() > 0){
+            if (mActivityList != null && mActivityList.size() > 0){
                 for (Activity a : mActivityList){
                     a.finish();
                 }
